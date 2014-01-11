@@ -1,0 +1,31 @@
+{
+  "name": "mit",
+  "version": "0.0.1",
+  "description": "desc",
+  "main": "app.js",
+  "scripts": {
+    "test": "node "
+  },
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "keywords": [
+    "parser"
+  ],
+  "author": "mit patel",
+  "license": "free",
+  "dependencies": {
+    "node-curl": "~0.3.1",
+    "urlencode": "0.0.1",
+    "url": "~0.7.9",
+    "crawl": "~0.3.1",
+    "simplecrawler": "~0.3.6",
+    "crawler": "~0.2.5",
+    "jsdom": "~0.8.9",
+    "moment": "~2.4.0",
+    "google": "~0.3.2",
+    "scrapper": "~1.0.1",
+    "async": "~0.2.9"
+  }
+}
