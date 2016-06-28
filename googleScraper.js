@@ -3,7 +3,7 @@ var scrapper = require('scrapper');
 var async = require('async');
 google.resultsPerPage = 5;
 var nextCounter = 0;
-var keywords = ['fiverr', 'node', 'engineering poem'];
+var keywords = ['techmate', 'node', 'computer engineering poem'];
 
 async.each(keywords, function(item){
   google(item, function(err, next, links){
